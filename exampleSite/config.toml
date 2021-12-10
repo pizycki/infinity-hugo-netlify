@@ -21,13 +21,13 @@ contact = "Contact"
 # Hero Area
 [params.hero]
 enable            = true
-bg                = "images/header-bg.jpg"
-title             = "BRING YOUR PRODUCT TO LIGHT"
+bg                = "images/steve-johnson-hokONTrHIAQ-unsplash.jpg"
+title             = "Elet"
 subtitle          = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
 btnText           = "Get Started"
 
 # counter
-disableCountdown  = false
+disableCountdown  = true
 countdownYear = "2021"
 countdownMonth = "12"
 countdownDay  = "31"
@@ -39,13 +39,7 @@ heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam 
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
 
 [[params.about.sliderItem]]
-image   = "images/about/1.jpg"
-[[params.about.sliderItem]]
-image   = "images/about/2.jpg"
-[[params.about.sliderItem]]
-image   = "images/about/3.jpg"
-[[params.about.sliderItem]]
-image   = "images/about/2.jpg"
+image   = "images/patrick-tomasso-2R5QtSqJtdY-unsplash.jpg"
 
 
 # Service Section
@@ -57,72 +51,51 @@ subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-strategy"
-title   = "Fully Responsive"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon    = "tf-toolbox"
+title   = "Zawsze gotowy"
+description = "Wszelkie narzędzie potrzebne do pracy mam zawsze przy sobie"
 delay   = "0s"
 
 [[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-circle-compass"
-title   = "Speed Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon    = "tf-lightbulb"
+title   = "Wybór oświetlenia"
+description = "Pomoc w doborze najbardziej odpowiednich rozwiązań świetlnych"
 delay   = "0.2s"
 
 [[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Tons of Feature"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon    = "tf-pencil2"
+title   = "Projekt instalacji"
+description = "Projektowanie i konsultacje planów elektrycznych"
 delay   = "0.4s"
 
 [[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-globe"
-title   = "Fully SEO Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon    = "tf-tools-2"
+title   = "Modernizacje instalacji"
+description = "Naprawy i rozszerzanie istniejących intalacji elektrycznych"
 delay   = "0.6s"
 
 [[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-strategy"
-title   = "Fully Responsive"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon    = "tf-caution"
+title   = "Wymagane uprawnienia"
+description = "Uprawnienia KV100"
 delay   = "0.8s"
 
 [[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-circle-compass"
-title   = "Speed Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon    = "tf-ion-document"
+title   = "Faktura"
+description = "Bez faktury będzie taniej"
 delay   = "1s"
 
 [[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Tons of Feature"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon    = "tf-ion-home"
+title   = "Smarthome"
+description = "Fibaro, Laxone i inne dyrdymały"
 delay   = "1.2s"
 
 [[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-globe"
-title   = "Fully SEO Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+icon    = "tf-ion-beer"
+title   = "Świadkowanie"
+description = "Swatanie, kawalerskie, picie wódy"
 delay   = "1.5s"
 
 
@@ -130,6 +103,7 @@ delay   = "1.5s"
 [params.cta]
 enable      = true
 bg          = "images/call-to-action.jpg"
+canSubscribe = false
 title       = "Subscribe to our mailing list"
 subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
 

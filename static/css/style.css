@@ -320,6 +320,12 @@ a:active {
   margin-bottom: 3px;
 }
 
+.title-area {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 35px;
+  display: block;
+}
+
 .hero-area .counter ul li span {
   display: block;
   font-size: 16px;

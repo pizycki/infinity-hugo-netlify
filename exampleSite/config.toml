@@ -5,7 +5,6 @@ theme = "infinity-hugo"
 removePathAccents = true
 
 
-
 # HTML before the closing </head>
 [params]
 customHead = ""
@@ -20,94 +19,95 @@ contact = "Contact"
 
 # Hero Area
 [params.hero]
-enable            = true
-bg                = "images/steve-johnson-hokONTrHIAQ-unsplash.jpg"
-title             = "Elet"
-subtitle          = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-btnText           = "Get Started"
+enable = true
+bg = "images/steve-johnson-hokONTrHIAQ-unsplash.jpg"
+title = "Elet"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+btnText = "Get Started"
+btnTextEnabled = false
 
 # counter
-disableCountdown  = true
+disableCountdown = true
 countdownYear = "2021"
 countdownMonth = "12"
-countdownDay  = "31"
+countdownDay = "31"
 
 # About Section
 [params.about]
-enable      = true
-heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
+enable = true
+heading = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
 
 [[params.about.sliderItem]]
-image   = "images/patrick-tomasso-2R5QtSqJtdY-unsplash.jpg"
+image = "images/patrick-tomasso-2R5QtSqJtdY-unsplash.jpg"
 
 
 # Service Section
 [params.service]
-enable      = true
-title       = "Find Better Solutions Build Better Products"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+enable = true
+title = "Find Better Solutions Build Better Products"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-toolbox"
-title   = "Zawsze gotowy"
+icon = "tf-toolbox"
+title = "Zawsze gotowy"
 description = "Wszelkie narzędzie potrzebne do pracy mam zawsze przy sobie"
-delay   = "0s"
+delay = "0s"
 
 [[params.service.serviceItem]]
-icon    = "tf-lightbulb"
-title   = "Wybór oświetlenia"
+icon = "tf-lightbulb"
+title = "Wybór oświetlenia"
 description = "Pomoc w doborze najbardziej odpowiednich rozwiązań świetlnych"
-delay   = "0.2s"
+delay = "0.2s"
 
 [[params.service.serviceItem]]
-icon    = "tf-pencil2"
-title   = "Projekt instalacji"
+icon = "tf-pencil2"
+title = "Projekt instalacji"
 description = "Projektowanie i konsultacje planów elektrycznych"
-delay   = "0.4s"
+delay = "0.4s"
 
 [[params.service.serviceItem]]
-icon    = "tf-tools-2"
-title   = "Modernizacje instalacji"
+icon = "tf-tools-2"
+title = "Modernizacje instalacji"
 description = "Naprawy i rozszerzanie istniejących intalacji elektrycznych"
-delay   = "0.6s"
+delay = "0.6s"
 
 [[params.service.serviceItem]]
-icon    = "tf-caution"
-title   = "Wymagane uprawnienia"
+icon = "tf-caution"
+title = "Wymagane uprawnienia"
 description = "Uprawnienia KV100"
-delay   = "0.8s"
+delay = "0.8s"
 
 [[params.service.serviceItem]]
-icon    = "tf-ion-document"
-title   = "Faktura"
+icon = "tf-ion-document"
+title = "Faktura"
 description = "Bez faktury będzie taniej"
-delay   = "1s"
+delay = "1s"
 
 [[params.service.serviceItem]]
-icon    = "tf-ion-home"
-title   = "Smarthome"
+icon = "tf-ion-home"
+title = "Smarthome"
 description = "Fibaro, Laxone i inne dyrdymały"
-delay   = "1.2s"
+delay = "1.2s"
 
 [[params.service.serviceItem]]
-icon    = "tf-ion-beer"
-title   = "Świadkowanie"
+icon = "tf-ion-beer"
+title = "Świadkowanie"
 description = "Swatanie, kawalerskie, picie wódy"
-delay   = "1.5s"
+delay = "1.5s"
 
 
 # Call to Action Section
 [params.cta]
-enable      = true
-bg          = "images/call-to-action.jpg"
+enable = true
+bg = "images/call-to-action.jpg"
 canSubscribe = false
-title       = "Subscribe to our mailing list"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+title = "Subscribe to our mailing list"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
 
 [params.contact]
-enable      = true
-title       = "Get In Touch"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
+enable = true
+title = "Get In Touch"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
